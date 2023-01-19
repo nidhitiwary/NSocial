@@ -137,7 +137,7 @@ fontSize.forEach(size => {
 
 //remove active class from colors 
 const changeActiveColorClass = () => {
-    colorPalette.addEventListener(colorPicker => {
+    colorPalette.forEach(colorPicker => {
         colorPicker.classList.remove('active');
     })
 }
